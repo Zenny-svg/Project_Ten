@@ -1,0 +1,13 @@
+<!-- home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<a href="{{ url_for('about') }}">About</a>
+<h1>Welcome back, {{ my_name }}!</h1>
+<p>{{ my_fact }}</p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+ body {  
+    font-family: "Times New Roman", Georgia, serif;
+    background-color: rgb(48, 48, 48);
+    text-decoration-thickness: calc(24px);
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: bold;
+    color: rgb(255, 255, 255);
+}
